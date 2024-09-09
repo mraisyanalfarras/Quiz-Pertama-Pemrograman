@@ -39,8 +39,6 @@ public class TambahActivity extends AppCompatActivity {
 
             Toast.makeText(this, "Data berhasil disimpan", Toast.LENGTH_SHORT).show();
 
-            //kembali Ke MainActivity
-            //Gunakan Intent
             Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
         });
